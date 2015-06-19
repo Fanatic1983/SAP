@@ -1,0 +1,18 @@
+{
+  "run": [
+    {
+      "filePath": "/testcamera/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 2133724,
+        "displayName": "New Web Application"
+      }
+    }
+  ]
+}
