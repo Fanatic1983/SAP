@@ -1,0 +1,21 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.emptyMobileProjectKapsel",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 18 Jun 2015 13:05:47 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "hcpdeploy": {
+    "account": "s0011631633trial",
+    "name": "testcamera",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  }
+}
