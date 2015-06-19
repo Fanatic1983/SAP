@@ -1,0 +1,79 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="view.main">
+	<Page title="Take a Picture">
+		<content>
+		
+		<HBox width="100%" id="__hbox0" justifyContent="Center">
+		
+		    <items>
+		
+		        <Button text="Take a photo" width="150px" id="__button0" press="capturePhoto"/>
+		
+		        <Button text="Pick from gallery" width="150px" id="__button1" press="getPhoto"/>
+		
+		    </items>
+		
+		</HBox>
+		
+		<HBox width="100%" id="__hbox1" justifyContent="Center">
+		
+		    <items>
+		
+		        <Image src="sap-icon://picture" width="200px" height="200px" id="myImage">
+		
+		            <layoutData>
+		
+		                <FlexItemData alignSelf="Stretch" id="__data6"/>
+		
+		            </layoutData>
+		
+		        </Image>
+		
+		    </items>
+		
+		</HBox>
+		
+		<HBox width="100%" id="__hbox2" justifyContent="SpaceAround" renderType="List" direction="Column">
+		
+		    <items>
+		
+		        <Label text="Calculating..." width="100%" id="txtLatitude">
+		
+		            <layoutData>
+		
+		                <FlexItemData alignSelf="Stretch" id="__data7"/>
+		
+		            </layoutData>
+		
+		        </Label>
+		
+		        <Label text="Calculating..." width="100%" id="txtLongitude">
+		
+		            <layoutData>
+		
+		                <FlexItemData alignSelf="Stretch" id="__data8"/>
+		
+		            </layoutData>
+		
+		        </Label>
+		
+		        <Label text="Calculating..." width="100%" id="txtAltitude">
+		
+		            <layoutData>
+		
+		                <FlexItemData alignSelf="Stretch" id="__data10"/>
+		
+		            </layoutData>
+		
+		        </Label>
+		
+		    </items>
+		
+		</HBox>
+		
+		<HBox width="100%" id="__hbox3"/>
+		
+		<HBox width="100%" id="__hbox4"/>
+		
+		</content>
+	</Page>
+</core:View>
